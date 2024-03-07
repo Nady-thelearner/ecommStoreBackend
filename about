@@ -1,0 +1,19 @@
+1) to register user
+parameter required name,email,password,image(file), type, mobile.
+http://localhost:3000/api/register
+
+2)To login User.
+Require email and password.
+http://localhost:3000/api/login
+
+3)Update password
+require User Id and updated password as an input parameter , requires user to be authenticated.
+http://localhost:3000/api/update-password
+
+4) Forgot password
+require email of user. User dont need to authenticated to use this api
+http://localhost:3000/api/forget-password
+
+5)reset password
+Require updated password.
+http://localhost:3000/api/reset-password?token=NjbipU6EjfAUZsiJOcWUeYVvJMPEkovW 
